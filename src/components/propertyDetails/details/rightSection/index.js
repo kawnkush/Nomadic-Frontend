@@ -8,6 +8,10 @@ import styles from "./styles.module.css";
 import ButtonComponent from "../../../common/button";
 import BasicDateRangePicker from "./BasicDateRangePicker";
 
+
+import displayRazorpay from "../../../razorpay";
+
+
 const RightSection = () => {
   return (
     <>
@@ -41,7 +45,11 @@ const RightSection = () => {
       </div>
      
     </section>
+
      <ButtonComponent
+
+      onClick={displayRazorpay}
+
      className={styles["book-now-button"]}
      >
      Book now
