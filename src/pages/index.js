@@ -15,6 +15,8 @@ import Orders from "./orders";
 import Wishlist from "./wishlist";
 import MyProperties from "./myProperties";
 import Property from "./property";
+import SuccessModalDialog from "./successModal/successModal";
+
 
 
 const AllPages = () => {
@@ -37,6 +39,7 @@ const AllPages = () => {
         <Route exact path="/wishlist" element={<Wishlist />}/>
         <Route exact path="/properties" element={<MyProperties />}/>
         <Route exact path="/property/:id" element={<Property />}/>
+        <Route exact path="/success" element={<SuccessModalDialog />}/>
         </Routes>
       </BrowserRouter>
     </>
