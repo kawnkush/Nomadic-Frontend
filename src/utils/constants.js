@@ -1,6 +1,6 @@
 export const constants = {
-  BACKEND_URL: "http://localhost:5001",
-  FRONTEND_URL:"http://localhost:3000",
+  BACKEND_URL: "https://nomadic-backend.onrender.com",
+  FRONTEND_URL:"https://nomadicfrontend.netlify.app",
   PRODUCT_LIMIT: 24,
   DESTINATION_TYPES: [
     { icon: "fa-anchor", name: "Beaches" },
